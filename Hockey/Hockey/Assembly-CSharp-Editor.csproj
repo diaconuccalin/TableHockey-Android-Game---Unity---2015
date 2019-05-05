@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{262CBEE5-7202-4FA1-0A6A-29A3DEB92ED3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_1;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;PLATFORM_SUPPORTS_ADS_ID;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_DUCK_TYPING</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>D:/Programe/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>D:/Programe/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\BulletUnity\Examples\SceneMenu\Editor\UpdateScenesListMenu.cs" />
+     <Compile Include="Assets\BulletUnity\Scripts\Constraints\Editor\B6DOFConstraintEditor.cs" />
+     <Compile Include="Assets\BulletUnity\Scripts\Constraints\Editor\BBallSocketConstraintEditor.cs" />
+     <Compile Include="Assets\BulletUnity\Scripts\Constraints\Editor\BConeTwistConstraintEditor.cs" />
+     <Compile Include="Assets\BulletUnity\Scripts\Constraints\Editor\BHingedConstraintEditor.cs" />
+     <Compile Include="Assets\BulletUnity\Scripts\Constraints\Editor\BSliderConstraintEditor.cs" />
+     <Compile Include="Assets\BulletUnity\Scripts\Editor\BBoxShapeEditor.cs" />
+     <Compile Include="Assets\BulletUnity\Scripts\Editor\BBvhTriangleMeshShapeEditor.cs" />
+     <Compile Include="Assets\BulletUnity\Scripts\Editor\BCapsuleShapeEditor.cs" />
+     <Compile Include="Assets\BulletUnity\Scripts\Editor\BCollisionObjectEditor.cs" />
+     <Compile Include="Assets\BulletUnity\Scripts\Editor\BCompoundShapeEditor.cs" />
+     <Compile Include="Assets\BulletUnity\Scripts\Editor\BConeShapeEditor.cs" />
+     <Compile Include="Assets\BulletUnity\Scripts\Editor\BConvexHullShapeEditor.cs" />
+     <Compile Include="Assets\BulletUnity\Scripts\Editor\BConvexTriangleMeshShapeEditor.cs" />
+     <Compile Include="Assets\BulletUnity\Scripts\Editor\BCylinderShapeEditor.cs" />
+     <Compile Include="Assets\BulletUnity\Scripts\Editor\BGhostObjectEditor.cs" />
+     <Compile Include="Assets\BulletUnity\Scripts\Editor\BMultiSphereShapeEditor.cs" />
+     <Compile Include="Assets\BulletUnity\Scripts\Editor\BPairCachingGhostObjectEditor.cs" />
+     <Compile Include="Assets\BulletUnity\Scripts\Editor\BPhysicsWorldEditor.cs" />
+     <Compile Include="Assets\BulletUnity\Scripts\Editor\BPrimitiveComponentOrderSorter.cs" />
+     <Compile Include="Assets\BulletUnity\Scripts\Editor\BRigidBodyEditor.cs" />
+     <Compile Include="Assets\BulletUnity\Scripts\Editor\BSoftBodyComponentOrderSorter.cs" />
+     <Compile Include="Assets\BulletUnity\Scripts\Editor\BSoftBodyEditor.cs" />
+     <Compile Include="Assets\BulletUnity\Scripts\Editor\BSphereShapeEditor.cs" />
+     <Compile Include="Assets\BulletUnity\Scripts\Editor\EditorHelpers.cs" />
+     <Compile Include="Assets\BulletUnity\Scripts\Editor\EditorInterface.cs" />
+     <Compile Include="Assets\BulletUnity\Scripts\Editor\PrimitiveEditor.cs" />
+     <Compile Include="Assets\EasyRoads3D Free\Editor\EasyRoadsEditorMenu.cs" />
+     <Compile Include="Assets\EasyRoads3D Free\Editor\NewEasyRoads3D.cs" />
+     <Compile Include="Assets\EasyRoads3D Free\Editor\ObjectManager.cs" />
+     <Compile Include="Assets\EasyRoads3D Free\Editor\ProceduralObjectsEditor.cs" />
+     <Compile Include="Assets\EasyRoads3D Free\Editor\SideObjectImporter.cs" />
+     <Compile Include="Assets\EasyRoads3D Free\Editor\SideObjectInit.cs" />
+     <Compile Include="Assets\Monologue\Editor\MonologueEditor.cs" />
+     <None Include="Assets\EasyRoads3D Free\Shaders\EasyRoads3D-Surface.shader" />
+     <None Include="Assets\Forest Grounds - Terrain Texture Pack\Readme.txt" />
+     <None Include="Assets\BulletUnity\Documentation\README-REALY-README.txt" />
+     <None Include="Assets\BulletUnity\InternalResources\LineRenderFix.shader" />
+     <None Include="Assets\Ocias\StippleShaders\Shaders\Mobile-Diffuse-Stipple-Transparency.shader" />
+     <None Include="Assets\EasyRoads3D Free\Release Notes.txt" />
+     <None Include="Assets\Scripts\Collider2D Optimization\readme.txt" />
+     <None Include="Assets\EasyRoads3D Free\Shaders\EasyRoads3D Marker.shader" />
+     <None Include="Assets\EasyRoads3D Free\Shaders\EasyRoads3D-Surface_Alpha.shader" />
+     <None Include="Assets\BulletUnity\license.txt" />
+     <None Include="Assets\EasyRoads3D Free\Shaders\surfaceAlpha.shader" />
+     <None Include="Assets\Ocias\StippleShaders\Shaders\Standard-Stipple-Transparency.shader" />
+     <None Include="Assets\EasyRoads3D Free\Shaders\EasyRoads3D-Normal-Diffuse.shader" />
+     <None Include="Assets\EasyRoads3D Free\Shaders\Surface.shader" />
+     <None Include="Assets\EasyRoads3D Free\_readme.txt" />
+     <None Include="Assets\EasyRoads3D Free\Shaders\EasyRoads3D-Road-Edit-Mode.shader" />
+     <None Include="Assets\Cafofo - Unreleased Game Music Pack\Read me.txt" />
+ <Reference Include="UnityEditor.Advertisements">
+ <HintPath>D:/Programe/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>D:/Programe/Unity/Editor/Data/UnityExtensions/Unity/EditorTestsRunner/Editor/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.EditorTestsRunner">
+ <HintPath>D:/Programe/Unity/Editor/Data/UnityExtensions/Unity/EditorTestsRunner/Editor/UnityEditor.EditorTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>D:/Programe/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>D:/Programe/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>D:/Programe/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Networking">
+ <HintPath>D:/Programe/Unity/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.TreeEditor">
+ <HintPath>D:/Programe/Unity/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="EasyRoads3DEditor">
+ <HintPath>H:/Projects/Proiecte/Unity/Hockey/Hockey/Assets/EasyRoads3D Free/Editor/EasyRoads3DEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="EasyRoads3D">
+ <HintPath>H:/Projects/Proiecte/Unity/Hockey/Hockey/Assets/EasyRoads3D Free/lib/EasyRoads3D.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>D:/Programe/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Android.Extensions">
+ <HintPath>D:/Programe/Unity/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Metro.Extensions">
+ <HintPath>D:/Programe/Unity/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.Metro.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.SamsungTV.Extensions">
+ <HintPath>D:/Programe/Unity/Editor/Data/PlaybackEngines/STVPlayer/UnityEditor.SamsungTV.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WebGL.Extensions">
+ <HintPath>D:/Programe/Unity/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+ <HintPath>D:/Programe/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{99087757-0865-367F-FDBD-A02C5A4B8E49}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp.csproj">
+      <Project>{DF8879A6-B95D-C260-877D-65C584CFB6D2}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
